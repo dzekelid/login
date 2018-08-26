@@ -1,0 +1,85 @@
+---
+swagger: "2.0"
+x-collection-name: Plentymarkets
+x-complete: 1
+info:
+  title: plentymarkets REST-API
+  description: the-plentymarkets-rest-api-expands-the-functionality-of-the-plentymarkets-cms-and-allows-access-to-resources-i-e--data-records-via-unique-uri-paths
+  contact:
+    name: plentymarkets
+    url: https://forum.plentymarkets.com/c/rest-api
+  version: 1.0.0
+host: example.com
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /rest/account/login:
+    post:
+      summary: Login
+      description: Logs in to the online store with front end user credentials. The
+        login call returns a JSON object that contains information, such as the access
+        token and the refresh token.
+      operationId: postRestAccountLogin
+      x-api-path-slug: restaccountlogin-post
+      parameters:
+      - in: body
+        name: /rest/account/login
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Login
+  /rest/accounts/contacts/{contactId}/access_data/login_url:
+    get:
+      summary: Get the login URL
+      description: Gets the URL to login as the given contact. The ID of the contact
+        must be specified.
+      operationId: getRestAccountsContactsContactAccessDataLoginUrl
+      x-api-path-slug: restaccountscontactscontactidaccess-datalogin-url-get
+      parameters:
+      - in: path
+        name: contactId
+      responses:
+        200:
+          description: OK
+      tags:
+      - Login
+      - URL
+  /rest/login:
+    post:
+      summary: Login
+      description: Logs in to plentymarkets with your back end user credentials. The
+        login call returns a JSON object that contains information, such as the access
+        token and the refresh token.
+      operationId: postRestLogin
+      x-api-path-slug: restlogin-post
+      parameters:
+      - in: body
+        name: /rest/login
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Login
+  /rest/markets/ebay/auth/login:
+    get:
+      summary: Get the login url.
+      description: Get the login url..
+      operationId: getRestMarketsEbayAuthLogin
+      x-api-path-slug: restmarketsebayauthlogin-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Login
+      - Url
+---
