@@ -9,11 +9,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Login
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/the-tvdb/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: The TVDB API v2 - Post Login
+  x-api-slug: login-post
+  description: Returns a session token to be included in the rest of the requests.
+    Note that API key authentication is required for all subsequent requests and user
+    auth is required for routes in the `User` section
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/thetvdb.jpeg
+  humanURL: http://thetvdb.com
+  baseURL: https://api-dev.thetvdb.com//
+  tags: Televisions, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/the-tvdb/login-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://the.open.movie.database.api.gallery.streamdata.io

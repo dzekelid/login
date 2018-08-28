@@ -9,11 +9,39 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe
 x-kinRank: "10"
 x-alexaRank: "1914"
 tags: Login
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/stripe/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Stripe - Add Account Login Links
+  x-api-slug: accountlogin-links-post
+  description: Creates a single-use login link for an Express account to access their
+    Stripe dashboard.You may only create login links for Express accounts connected
+    to your platform.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/stripe/accountlogin-links-post-openapi.md
+- name: Stripe - Add Accounts Account Login Links
+  x-api-slug: accountsaccountlogin-links-post
+  description: Creates a single-use login link for an Express account to access their
+    Stripe dashboard.You may only create login links for Express accounts connected
+    to your platform.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/stripe/accountsaccountlogin-links-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://stride.api.gallery.streamdata.io

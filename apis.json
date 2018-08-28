@@ -1,0 +1,394 @@
+{
+	"name": "Streadata.io API Gallery - Login",
+	"description": "This is a repository of login APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/login.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://login.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "3scale",
+			"x-api-slug": "3scale",
+			"description": "3scales API Management platform gives you the tools you need to take control of your API. Trusted by more customers than any other vendor.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg",
+			"humanURL": "http://3scale.net",
+			"baseURL": "https://su1.3scale.net//",
+			"tags": "Login",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/3scale/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stripe",
+			"x-api-slug": "stripe",
+			"description": "Online payment processing for internet businesses. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes, including fraud prevention, and subscription management. Use Stripes payment platform to accept and process p...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg",
+			"humanURL": "https://stripe.com/",
+			"baseURL": "https://api.stripe.com/v1/",
+			"tags": "Login",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/stripe/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Viddler",
+			"x-api-slug": "viddler",
+			"description": "Viddler is an online sales training platform with integrated tools for practice and evaluation. The Viddler service offers video-based instruction and optional coaching, and allows customers to engage with course content through guided assignments and self-recorded practice sessions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddler.jpg",
+			"humanURL": "http://www.viddler.com/",
+			"baseURL": "https://api.viddler.com//api/v2",
+			"tags": "Login",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/viddler/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Instructure",
+			"x-api-slug": "instructure",
+			"description": "Instructure makes software that makes smarter people. Products include Canvas LMS, Bridge and Canvas Network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg",
+			"humanURL": "http://instructure.com",
+			"baseURL": "https://canvas.instructure.com//api/v1",
+			"tags": "Login",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/instructure/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OneAll",
+			"x-api-slug": "oneall",
+			"description": "OneAll Social Login is used by more than 250,000 websites worldwide, including small blogs, growing startups and large corporate enterprises.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/873-oneall-com.jpg",
+			"humanURL": "http://docs.oneall.com/",
+			"baseURL": "https:///",
+			"tags": "Login",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/oneall/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ge.tt",
+			"x-api-slug": "ge-tt",
+			"description": "Extremely simple realtime filesharing. No signup required. Share any number of photos, videos, music, anything - in seconds - no matter how large.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1012-ge-tt.jpg",
+			"humanURL": "http://ge.tt",
+			"baseURL": "https://open.ge.tt//1",
+			"tags": "Login",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/ge-tt/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "LoginRadius",
+			"x-api-slug": "loginradius",
+			"description": "Simplify customer authentication and authorization to amplify your business with better understanding of your audience using our customer identity management",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1086-loginradius.jpg",
+			"humanURL": "http://www.loginradius.com/",
+			"baseURL": ":///login/http://localhost:8008/_matrix/client/api/v1",
+			"tags": "Login",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/loginradius/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "StesCodes Social Login",
+			"x-api-slug": "stescodes-social-login",
+			"description": "Social inviter enables your user to import contacts, import friends, send message to friends, fetches user profile and post content to social networks in clicks.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1169-stescodes-social-login.jpg",
+			"humanURL": "http://stescodes.com/sociallogin.aspx",
+			"baseURL": "https:///",
+			"tags": "Login",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/stescodes-social-login/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "123FormBuilder",
+			"x-api-slug": "123formbuilder",
+			"description": "Create free web forms for your website within minutes, build complex workflows, sell online and more. With the simple drag & drop interface, building an online form, survey, poll or quiz is a breeze. Sign up for free to get started!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1638-123contactform.jpg",
+			"humanURL": "http://www.123formbuilder.com",
+			"baseURL": "https://api.123contactform.com//v2",
+			"tags": "Login",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/123formbuilder/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Flickr",
+			"x-api-slug": "flickr",
+			"description": "Flickr (pronounced flicker) is an image hosting and video hosting website, and web services suite that was created by Ludicorp in 2004 and acquired by Yahoo in 2005. In addition to being a popular website for users to share and embed personal photographs, and effectively an online community, the service is widely used by photo researchers and by bloggers to host images that they embed in blogs and social media.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg",
+			"humanURL": "http://www.flickr.com/",
+			"baseURL": "https://api.flickr.com//services/",
+			"tags": "Login",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/flickr/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Matrix",
+			"x-api-slug": "matrix",
+			"description": "An open standard for decentralised secure communication. Please support at https://t.co/oZd61hbMx3! | bridged to https://t.co/ujgzEXDSa4",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11769-matrix.jpg",
+			"humanURL": "http://matrix.org/",
+			"baseURL": "https:///",
+			"tags": "Login",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/matrix/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Identity and Access Management",
+			"x-api-slug": "aws-identity-and-access-management",
+			"description": "AWS Identity and Access Management (IAM) enables you to securely control access to AWS services and resources for your users. Using IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources.IAM is a feature of your AWS account offered at no additional charge. You will be charged only for use of other AWS services by your users.To get started using IAM, orif you have already registered with AWS, go to theAWS Management Consoleand get started with theseIAM Best Practices.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png",
+			"humanURL": "https://aws.amazon.com/iam/",
+			"baseURL": ":///",
+			"tags": "Login",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/aws-identity-and-access-management/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Security Token Service",
+			"x-api-slug": "aws-security-token-service",
+			"description": "The AWS Security Token Service (STS) is a web service that enables you to request temporary, limited-privilege credentials for AWS Identity and Access Management (IAM) users or for users that you authenticate (federated users).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM_AWSSTS.png",
+			"humanURL": "http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html",
+			"baseURL": ":///",
+			"tags": "Login",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/aws-security-token-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mattermost",
+			"x-api-slug": "mattermost",
+			"description": "Open source, private cloud Slack-alternative, Workplace messaging for web, PCs and phones. MIT-licensed. Hundreds of contributors. 14 languages. Secure, configurable, and scalable from teams to the enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png",
+			"humanURL": "https://mattermost.com",
+			"baseURL": "https:///",
+			"tags": "Login",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/mattermost/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Login",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Kaltura",
+			"x-api-slug": "kaltura",
+			"description": "A recognized leader in the OTT TV (Over the Top TV), OVP (Online Video Platform), EdVP (Education Video Platform) and EVP (Enterprise Video Platform) markets, Kaltura has emerged as the fastest growing video platform, and as the one with the widest use-case and appeal. Kaltura is deployed globally in thousands of enterprises, media companies, service providers and educational institutions and engages hundreds of millions of viewers at home, in work, and at school. The company is committed to its core values of openness, flexibility, and collaboration, and is the initiator and backer of the worlds leading open-source video-management project, which is home to more than 100,000 community members.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kaltura-vpaa-s.jpg",
+			"humanURL": "http://kaltura.com",
+			"baseURL": "https://www.kaltura.com//api_v3",
+			"tags": "Login",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/kaltura/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Learnifier",
+			"x-api-slug": "learnifier",
+			"description": "Create your online courses in minutes. Learnifier is the fast and easy tool for creating and sharing great courses that work on your mobile, tablet and desktop. Book a DEMO or test it out with our FREE TRIAL.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28448-learnifier.jpg",
+			"humanURL": "http://learnifier.com",
+			"baseURL": "https://learnifier.com//",
+			"tags": "Login",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/learnifier/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rebilly",
+			"x-api-slug": "rebilly",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png",
+			"humanURL": "https://www.rebilly.com",
+			"baseURL": "https://api.rebilly.com//v2.1",
+			"tags": "Login",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/rebilly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "The TVDB",
+			"x-api-slug": "the-tvdb",
+			"description": "TheTVDB.com is a community driven database of television shows. All content and images on the site have been contributed by the sites users; the site uses moderated editing to maintain its own standards. The database schema and website are open source under the GNU General Public License.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/thetvdb.jpeg",
+			"humanURL": "http://thetvdb.com",
+			"baseURL": "https://api-dev.thetvdb.com//",
+			"tags": "Login",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/the-tvdb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plentymarkets",
+			"x-api-slug": "plentymarkets",
+			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png",
+			"humanURL": "http://www.plentymarkets.co.uk",
+			"baseURL": "https://example.com//",
+			"tags": "Login",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/plentymarkets/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Login",
+	"include": [
+		{
+			"name": "3scale",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/3scale/apis.yaml"
+		},
+		{
+			"name": "Stripe",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/stripe/apis.yaml"
+		},
+		{
+			"name": "Viddler",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/viddler/apis.yaml"
+		},
+		{
+			"name": "Instructure",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/instructure/apis.yaml"
+		},
+		{
+			"name": "OneAll",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/oneall/apis.yaml"
+		},
+		{
+			"name": "Ge.tt",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/ge-tt/apis.yaml"
+		},
+		{
+			"name": "LoginRadius",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/loginradius/apis.yaml"
+		},
+		{
+			"name": "StesCodes Social Login",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/stescodes-social-login/apis.yaml"
+		},
+		{
+			"name": "123FormBuilder",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/123formbuilder/apis.yaml"
+		},
+		{
+			"name": "Flickr",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/flickr/apis.yaml"
+		},
+		{
+			"name": "Matrix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/matrix/apis.yaml"
+		},
+		{
+			"name": "AWS Identity and Access Management",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/aws-identity-and-access-management/apis.yaml"
+		},
+		{
+			"name": "AWS Security Token Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/aws-security-token-service/apis.yaml"
+		},
+		{
+			"name": "Mattermost",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/mattermost/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Kaltura",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/kaltura/apis.yaml"
+		},
+		{
+			"name": "Learnifier",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/learnifier/apis.yaml"
+		},
+		{
+			"name": "Rebilly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/rebilly/apis.yaml"
+		},
+		{
+			"name": "The TVDB",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/the-tvdb/apis.yaml"
+		},
+		{
+			"name": "Plentymarkets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/plentymarkets/apis.yaml"
+		}
+	]
+}

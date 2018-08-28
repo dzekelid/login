@@ -12,11 +12,170 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Login
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/aws-identity-and-access-management/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Identity and Access Management API - Create Login Profile
+  x-api-slug: actioncreateloginprofile-get
+  description: |-
+    Creates a password for the specified user, giving the user the ability to access AWS
+          services through the AWS Management Console.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/aws-identity-and-access-management/actioncreateloginprofile-get-openapi.md
+- name: AWS Identity and Access Management API - Delete Login Profile
+  x-api-slug: actiondeleteloginprofile-get
+  description: |-
+    Deletes the password for the specified IAM user, which terminates the user's ability
+          to access AWS services through the AWS Management Console.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/aws-identity-and-access-management/actiondeleteloginprofile-get-openapi.md
+- name: AWS Identity and Access Management API - Get Login Profile
+  x-api-slug: actiongetloginprofile-get
+  description: Retrieves the user name and password-creation date for the specified
+    IAM user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/aws-identity-and-access-management/actiongetloginprofile-get-openapi.md
+- name: AWS Identity and Access Management API - Update Login Profile
+  x-api-slug: actionupdateloginprofile-get
+  description: Changes the password for the specified IAM user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/aws-identity-and-access-management/actionupdateloginprofile-get-openapi.md
+- name: AWS Identity and Access Management API - Create Login Profile
+  x-api-slug: actioncreateloginprofile-get
+  description: |-
+    Creates a password for the specified user, giving the user the ability to access AWS
+          services through the AWS Management Console.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/aws-identity-and-access-management/actioncreateloginprofile-get-openapi.md
+- name: AWS Identity and Access Management API - Delete Login Profile
+  x-api-slug: actiondeleteloginprofile-get
+  description: |-
+    Deletes the password for the specified IAM user, which terminates the user's ability
+          to access AWS services through the AWS Management Console.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/aws-identity-and-access-management/actiondeleteloginprofile-get-openapi.md
+- name: AWS Identity and Access Management API - Get Login Profile
+  x-api-slug: actiongetloginprofile-get
+  description: Retrieves the user name and password-creation date for the specified
+    IAM user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/aws-identity-and-access-management/actiongetloginprofile-get-openapi.md
+- name: AWS Identity and Access Management API - Update Login Profile
+  x-api-slug: actionupdateloginprofile-get
+  description: Changes the password for the specified IAM user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/aws-identity-and-access-management/actionupdateloginprofile-get-openapi.md
+- name: AWS Identity and Access Management API - Create Login Profile
+  x-api-slug: actioncreateloginprofile-get
+  description: |-
+    Creates a password for the specified user, giving the user the ability to access AWS
+          services through the AWS Management Console.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/aws-identity-and-access-management/actioncreateloginprofile-get-openapi.md
+- name: AWS Identity and Access Management API - Delete Login Profile
+  x-api-slug: actiondeleteloginprofile-get
+  description: |-
+    Deletes the password for the specified IAM user, which terminates the user's ability
+          to access AWS services through the AWS Management Console.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/aws-identity-and-access-management/actiondeleteloginprofile-get-openapi.md
+- name: AWS Identity and Access Management API - Get Login Profile
+  x-api-slug: actiongetloginprofile-get
+  description: Retrieves the user name and password-creation date for the specified
+    IAM user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/aws-identity-and-access-management/actiongetloginprofile-get-openapi.md
+- name: AWS Identity and Access Management API - Update Login Profile
+  x-api-slug: actionupdateloginprofile-get
+  description: Changes the password for the specified IAM user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/aws-identity-and-access-management/actionupdateloginprofile-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.glacier.api.gallery.streamdata.io

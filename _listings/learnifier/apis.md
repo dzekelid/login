@@ -8,11 +8,53 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28448-lear
 x-kinRank: "7"
 x-alexaRank: "5836977"
 tags: Login
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/learnifier/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Learnifier - Participant login link
+  x-api-slug: orgunitsorgidprojectsprojectidparticipantsparticipantidloginlink-post
+  description: |-
+    Returns a single sign on link for the participant. The link is only usable once and should be used directly. The link expires after a few minutes.
+
+    This operation requires the *login link* permission.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28448-learnifier.jpg
+  humanURL: http://learnifier.com
+  baseURL: https://learnifier.com//
+  tags: Technology, Marketplace, Education, Courses, API Provider, API Service Provider,
+    Trainings, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/learnifier/orgunitsorgidprojectsprojectidparticipantsparticipantidloginlink-post-openapi.md
+- name: Learnifier - Participant login link
+  x-api-slug: orgunitsorgidprojectsprojectidparticipantsparticipantidloginlink-post
+  description: |-
+    Returns a single sign on link for the participant. The link is only usable once and should be used directly. The link expires after a few minutes.
+
+    This operation requires the *login link* permission.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28448-learnifier.jpg
+  humanURL: http://learnifier.com
+  baseURL: https://learnifier.com//
+  tags: Technology, Marketplace, Education, Courses, API Provider, API Service Provider,
+    Trainings, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/learnifier/orgunitsorgidprojectsprojectidparticipantsparticipantidloginlink-post-openapi.md
+- name: Learnifier - Participant login link
+  x-api-slug: orgunitsorgidprojectsprojectidparticipantsparticipantidloginlink-post
+  description: |-
+    Returns a single sign on link for the participant. The link is only usable once and should be used directly. The link expires after a few minutes.
+
+    This operation requires the *login link* permission.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28448-learnifier.jpg
+  humanURL: http://learnifier.com
+  baseURL: https://learnifier.com//
+  tags: Technology, Marketplace, Education, Courses, API Provider, API Service Provider,
+    Trainings, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/learnifier/orgunitsorgidprojectsprojectidparticipantsparticipantidloginlink-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://launchdarkly.api.gallery.streamdata.io

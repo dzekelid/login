@@ -6,14 +6,14 @@ info:
   title: Matrix Login Operations API Get the login mechanism to use when logging in.
   version: 1.0.0
   description: All login stages MUST be mentioned if there is >1 login type.
-host: /login
-basePath: http://localhost:8008/_matrix/client/api/v1
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+host: /login
+basePath: http://localhost:8008/_matrix/client/api/v1
 paths:
   /login:
     get:

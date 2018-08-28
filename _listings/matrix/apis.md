@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11769-matr
 x-kinRank: "8"
 x-alexaRank: "156652"
 tags: Login
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/matrix/apis.md
 specificationVersion: "0.14"
 apis:
@@ -25,6 +25,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/matrix/login-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/matrix/login-get-openapi.md
+- name: Login Operations - Submit a login action.
+  x-api-slug: login-post
+  description: If this is part of a multi-stage login, there MUST be a session key.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11769-matrix.jpg
+  humanURL: http://matrix.org/
+  baseURL: :///login/http://localhost:8008/_matrix/client/api/v1
+  tags: Real Time, Stack Network, Technology, Enterprise, Telecommunications, API
+    Provider, Profiles, Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/matrix/login-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://mastercard.api.gallery.streamdata.io

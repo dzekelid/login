@@ -11,11 +11,56 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Login
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/plentymarkets/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: plentymarkets REST-API - Login
+  x-api-slug: restaccountlogin-post
+  description: Logs in to the online store with front end user credentials. The login
+    call returns a JSON object that contains information, such as the access token
+    and the refresh token.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/plentymarkets/restaccountlogin-post-openapi.md
+- name: plentymarkets REST-API - Get the login URL
+  x-api-slug: restaccountscontactscontactidaccess-datalogin-url-get
+  description: Gets the URL to login as the given contact. The ID of the contact must
+    be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/plentymarkets/restaccountscontactscontactidaccess-datalogin-url-get-openapi.md
+- name: plentymarkets REST-API - Login
+  x-api-slug: restlogin-post
+  description: Logs in to plentymarkets with your back end user credentials. The login
+    call returns a JSON object that contains information, such as the access token
+    and the refresh token.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/plentymarkets/restlogin-post-openapi.md
+- name: plentymarkets REST-API - Get the login url.
+  x-api-slug: restmarketsebayauthlogin-get
+  description: Get the login url..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/login/master/_listings/plentymarkets/restmarketsebayauthlogin-get-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.plentymarkets.co.uk/?ActionCall=WebActionRSS&rrss_id=1
